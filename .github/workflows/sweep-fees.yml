@@ -1,0 +1,32 @@
+# Sends the keeper's collected filler fees (stock tokens, USDG, WETH it holds) to a wallet you name.
+# Start it by hand: Actions -> Sweep keeper fees -> Run workflow -> paste your wallet address. ETH stays for gas.
+name: Sweep keeper fees
+
+on:
+  workflow_dispatch:
+    inputs:
+      to:
+        description: "Send the fees to this wallet address"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --workspace engine --include-workspace-root=false --ignore-scripts --no-audit --no-fund
+      - name: Sweep
+        working-directory: engine
+        run: npx tsx scripts/sweep.ts
+        env:
+          KEEPER_PRIVATE_KEY: ${{ secrets.KEEPER_PRIVATE_KEY }}
+          RPC_URL: ${{ secrets.RPC_URL || 'https://rpc.mainnet.chain.robinhood.com' }}
+          SWEEP_TO: ${{ inputs.to }}

@@ -1,0 +1,16 @@
+node_modules
+.next
+web/out
+*.tsbuildinfo
+next-env.d.ts
+.env
+.env.local
+.env.*.local
+contracts/out
+contracts/cache
+contracts/broadcast
+contracts/local-world.json
+.vercel
+verify-files/
+launch.env
+docs/LAUNCH.md

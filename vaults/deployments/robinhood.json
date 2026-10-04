@@ -1,0 +1,60 @@
+{
+  "network": "robinhood",
+  "chainId": 4663,
+  "roles": {
+    "admin": "0xb1387AA813Bd20fcb01b784204Cf4B7386dcb8C1",
+    "guardian": "0xb1387AA813Bd20fcb01b784204Cf4B7386dcb8C1",
+    "keeper": "0x12002E124B15aBdbff4ea4c5abfCfb207Db7A53D",
+    "treasury": "0xb1387AA813Bd20fcb01b784204Cf4B7386dcb8C1"
+  },
+  "vaults": {
+    "TSLA": {
+      "vault": "0xf9dF3f3F022CA8aB2e5735136c1EF30613380a61",
+      "position": "0xF551da572FEB3a0093Cb0b32A1Eb712017803460",
+      "equityToken": "0x322F0929c4625eD5bAd873c95208D54E1c003b2d",
+      "name": "Tesla"
+    },
+    "NVDA": {
+      "vault": "0x427dF168E9aFbE1AfBD0C655f33E1eE505965C63",
+      "position": "0xd96005DC7E649567F31643BFC170062a30a2927a",
+      "equityToken": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+      "name": "NVIDIA"
+    },
+    "AAPL": {
+      "vault": "0x6407bbEeA04BBE0fBF33409c863bcB42C1FEaCA1",
+      "position": "0x3C9252afBFdb2391Dc373f67703Df3A8Ff415A0E",
+      "equityToken": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+      "name": "Apple"
+    },
+    "PLTR": {
+      "vault": "0xF454aaD67B2aff4120308441CFe61540ED3dcA60",
+      "position": "0x678bc9d65E154e4CEb089867e0EB1b741f8A3998",
+      "equityToken": "0x894E1EC2D74FFE5AEF8Dc8A9e84686acCB964F2A",
+      "name": "Palantir"
+    },
+    "META": {
+      "vault": "0x1B0D38dBD1381d473e7E36A6cbFc3894aA6f90ca",
+      "position": "0x53eb99678Ba4cd4f566D98eFe578b1e65C421654",
+      "equityToken": "0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35",
+      "name": "Meta"
+    }
+  },
+  "creditLines": {
+    "META": "0xDFC73951CC6B86e9c061d90194Eb380349d1889C"
+  },
+  "timelock": "0x493ecA7E534cf3aAb6144511c326a3B7db5588eE",
+  "usdg": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+  "limitToken": null,
+  "limitTokenSetter": "0xb1387AA813Bd20fcb01b784204Cf4B7386dcb8C1",
+  "oracle": "0x0084dF912D84698d4Bf97175c70925357B407487",
+  "swapAdapter": "0xce432DC63aDF6F2c70015bCe773620BE71AB5ABE",
+  "buyBurn": "0x25AADD12285F904111Bacbe76d2038B102164476",
+  "feeRouter": "0xE76bb6434714167303101d9dc940E3D8dcc14B9c",
+  "registry": "0xD64B84A5Ea4c56ddC18a2E293bcF4B1396b1D61C",
+  "basketProgram": "0x6bea0A094142A9Fe48A0ca322c8bdf78E126a0b6",
+  "pendingTimelockAcceptances": [
+    "0x0084dF912D84698d4Bf97175c70925357B407487",
+    "0xD64B84A5Ea4c56ddC18a2E293bcF4B1396b1D61C",
+    "0xce432DC63aDF6F2c70015bCe773620BE71AB5ABE"
+  ]
+}
