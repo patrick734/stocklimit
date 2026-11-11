@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T20:29:37.830Z",
+  "updatedAt": "2026-11-11T20:14:16.042Z",
   "source": "https://api.robinhood.com/rhj/assets",
   "pools": [
     {
@@ -1179,6 +1179,13 @@
       "hooks": "0x0000000000000000000000000000000000000000"
     },
     {
+      "currency0": "0x0f17206447090e464C277571124dD2688E48AEA9",
+      "currency1": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+      "fee": 10000,
+      "tickSpacing": 200,
+      "hooks": "0x0000000000000000000000000000000000000000"
+    },
+    {
       "currency0": "0x12e3c047bf9AeCAF9dDC98c05C31BFD1dd043993",
       "currency1": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
       "fee": 500,
@@ -1298,6 +1305,20 @@
       "hooks": "0x0000000000000000000000000000000000000000"
     },
     {
+      "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+      "currency1": "0xB1BF26c1D20ff267A4f93550d1E0d06ac40a114B",
+      "fee": 100,
+      "tickSpacing": 1,
+      "hooks": "0x0000000000000000000000000000000000000000"
+    },
+    {
+      "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+      "currency1": "0xB1BF26c1D20ff267A4f93550d1E0d06ac40a114B",
+      "fee": 10000,
+      "tickSpacing": 200,
+      "hooks": "0x0000000000000000000000000000000000000000"
+    },
+    {
       "currency0": "0x1b0E319c6A659F002271B69dB8A7df2F911c153E",
       "currency1": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
       "fee": 500,
@@ -1356,6 +1377,41 @@
     {
       "currency0": "0x0000000000000000000000000000000000000000",
       "currency1": "0xa5D4968421bA94814Be3B136b15cf422101aC1a3",
+      "fee": 10000,
+      "tickSpacing": 200,
+      "hooks": "0x0000000000000000000000000000000000000000"
+    },
+    {
+      "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+      "currency1": "0xec262a75e413fAfD0dF80480274532C79D42da09",
+      "fee": 100,
+      "tickSpacing": 1,
+      "hooks": "0x0000000000000000000000000000000000000000"
+    },
+    {
+      "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+      "currency1": "0xec262a75e413fAfD0dF80480274532C79D42da09",
+      "fee": 500,
+      "tickSpacing": 10,
+      "hooks": "0x0000000000000000000000000000000000000000"
+    },
+    {
+      "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+      "currency1": "0xec262a75e413fAfD0dF80480274532C79D42da09",
+      "fee": 3000,
+      "tickSpacing": 60,
+      "hooks": "0x0000000000000000000000000000000000000000"
+    },
+    {
+      "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+      "currency1": "0xec262a75e413fAfD0dF80480274532C79D42da09",
+      "fee": 10000,
+      "tickSpacing": 200,
+      "hooks": "0x0000000000000000000000000000000000000000"
+    },
+    {
+      "currency0": "0x0000000000000000000000000000000000000000",
+      "currency1": "0xec262a75e413fAfD0dF80480274532C79D42da09",
       "fee": 10000,
       "tickSpacing": 200,
       "hooks": "0x0000000000000000000000000000000000000000"
@@ -1547,6 +1603,13 @@
       "currency1": "0x8cF07C5A878945185d327aAa6e33FAa95F95e7bF",
       "fee": 500,
       "tickSpacing": 10,
+      "hooks": "0x0000000000000000000000000000000000000000"
+    },
+    {
+      "currency0": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+      "currency1": "0xF0C4BF4C582cb3836e98394b1d4e7B7281101bE8",
+      "fee": 100,
+      "tickSpacing": 1,
       "hooks": "0x0000000000000000000000000000000000000000"
     },
     {
